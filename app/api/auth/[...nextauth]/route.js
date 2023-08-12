@@ -22,9 +22,7 @@ const handler =NextAuth({
                 email:profile.email
             })
             //if not ,create a new user
-            if(!userExists){
-                await User.
-            }
+            
             return true;
         } catch (error) {
             console.log(error);
